@@ -3,7 +3,7 @@ package org.gokareless.hakerrank.euler;
 public class Euler2 {
 
     public static void main(String[] args) {
-        long topBorder = 100;
+        long topBorder = 4000000;
         long sum = findFibonacciEvenNumbersSum(topBorder);
         System.out.println(sum);
     }

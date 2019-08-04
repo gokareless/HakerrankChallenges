@@ -3,7 +3,7 @@ package org.gokareless.hakerrank.euler;
 public class Euler4 {
 
     public static void main(String[] args) {
-        int number = 800000;
+        int number = 998001;
         System.out.println(findNumber(number));
     }
 

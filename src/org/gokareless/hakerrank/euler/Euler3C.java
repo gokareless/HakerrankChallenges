@@ -1,9 +1,9 @@
 package org.gokareless.hakerrank.euler;
 
-public class Euler3 {
+public class Euler3C {
 
     public static void main(String[] args) {
-        long number = 31;
+        long number = 600851475143L;
         System.out.println(findPrimeFactor(number));
     }
 

@@ -3,18 +3,20 @@ package org.gokareless.hakerrank.euler;
 public class Euler3_2 {
 
     public static void main(String[] args) {
-        long number = 10;
+        long number = 600851475143L;
         System.out.println(findPrimeFactor(number));
     }
 
     private static long findPrimeFactor(long number) {
-        long factor = (long) Math.sqrt(number);
-        while (factor >= 2) {
+        long factor = 2;
+        long root = (long) Math.sqrt(number);
+        while (factor <= root) {
             if (number % factor == 0) {
                 number = number / factor;
-                factor = (long) Math.sqrt(number);
+                factor = 2;
+                root = (long) Math.sqrt(number);
             } else {
-                factor -= 1;
+                factor += 1;
             }
         }
         return number;
