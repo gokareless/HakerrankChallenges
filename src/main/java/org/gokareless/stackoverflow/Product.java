@@ -1,4 +1,4 @@
-package org.gokareless.hakerrank.stackoverflow;
+package org.gokareless.stackoverflow;
 
 import lombok.*;
 
